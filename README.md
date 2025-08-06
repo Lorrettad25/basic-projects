@@ -13,16 +13,30 @@ It includes a script (`main.py`) and a Jupyter notebook (`example.ipynb`) that g
 ---
 
 ## 📁 Project Structure
+basic-projects/
+│
+├── main.py                # Python script
+├── example.ipynb          # Jupyter notebook version
+├── requirements.txt       # Python dependencies
+├── README.md              # Project documentation
+└── .venv/                 # Virtual environment (not in GitHub)
 
+📊 Features Demonstrated
+Random data generation with NumPy
 
+Creating and working with pandas DataFrames
+
+Plotting with seaborn and matplotlib
+
+Using feature-engine (placeholder import)
 ---
 
 ## 🚀 Getting Started
-
+To run this project on your local machine please do the following:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/basic-projects.git
+git clone https://github.com/Lorrettad25/basic-projects.git
 cd basic-projects
 python -m venv .venv
 .venv\Scripts\Activate    # On Windows
@@ -32,11 +46,4 @@ jupyter notebook
 
 ---
 
-## ✅ Step 3: Save and Commit the README
 
-In your **VS Code terminal**, run:
-
-```bash
-git add README.md
-git commit -m "Add README file"
-git push
